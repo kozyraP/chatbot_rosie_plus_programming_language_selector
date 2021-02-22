@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>JAVA</pattern>
+	    <template>
+	        <delay>1</delay>
+	        Best choice for you is: Java
+	        <image>https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/141px-Java_programming_language_logo.svg.png</image>
+	        <button>
+                <text>Click Here to learn more about the language.</text>
+                <url>https://en.wikipedia.org/wiki/Java_(programming_language)</url>
+            </button>
+            <delay>3</delay>
+	        <reply>
+                <text>I want to try again</text>
+                <postback>I WANT TO LEARN PROGRAMING LANGUAGE</postback>
+            </reply>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>C SHARP</pattern>
+	    <template>
+	        <delay>1</delay>
+	        Best choice for you is: C#
+	        <image>https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/C_Sharp_logo.svg/150px-C_Sharp_logo.svg.png</image>
+	        <button>
+                <text>Click Here to learn more about the language.</text>
+                <url>https://en.wikipedia.org/wiki/C_Sharp_(programming_language)</url>
+            </button>
+            <delay>3</delay>
+	        <reply>
+                <text>I want to try again</text>
+                <postback>I WANT TO LEARN PROGRAMING LANGUAGE</postback>
+            </reply>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>HTML</pattern>
+	    <template>
+	        <delay>1</delay>
+	        Best choice for you is: HTML
+	        <image>https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png</image>
+	        <button>
+                <text>Click Here to learn more about the language.</text>
+                <url>https://en.wikipedia.org/wiki/HTML5</url>
+            </button>
+            <delay>3</delay>
+	        <reply>
+                <text>I want to try again</text>
+                <postback>I WANT TO LEARN PROGRAMING LANGUAGE</postback>
+            </reply>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>SWIFT</pattern>
+	    <template>
+	        <delay>1</delay>
+	        Best choice for you is: SWIFT
+	        <image>https://upload.wikimedia.org/wikipedia/en/thumb/9/96/App_Store_icon_for_Swift_Playgrounds.png/220px-App_Store_icon_for_Swift_Playgrounds.png</image>
+	        <button>
+                <text>Click Here to learn more about the language.</text>
+                <url>https://en.wikipedia.org/wiki/Swift_(programming_language)</url>
+            </button>
+            <delay>3</delay>
+	        <reply>
+                <text>I want to try again</text>
+                <postback>I WANT TO LEARN PROGRAMING LANGUAGE</postback>
+            </reply>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>PYTHON</pattern>
+	    <template>
+	        <delay>1</delay>
+	        Best choice for you is: PYTHON
+	        <image>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/250px-Python_logo_and_wordmark.svg.png</image>
+	        <button>
+                <text>Click Here to learn more about the language.</text>
+                <url>https://en.wikipedia.org/wiki/Python_(programming_language)</url>
+            </button>
+            <delay>3</delay>
+	        <reply>
+                <text>I want to try again</text>
+                <postback>I WANT TO LEARN PROGRAMING LANGUAGE</postback>
+            </reply>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>C PLUS</pattern>
+	    <template>
+	        <delay>1</delay>
+	        Best choice for you is: C++
+	        <image>https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/150px-ISO_C%2B%2B_Logo.svg.png</image>
+	        <button>
+                <text>Click Here to learn more about the language.</text>
+                <url>https://en.wikipedia.org/wiki/C%2B%2B</url>
+            </button>
+            <delay>3</delay>
+	        <reply>
+                <text>I want to try again</text>
+                <postback>I WANT TO LEARN PROGRAMING LANGUAGE</postback>
+            </reply>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>JAVASCRIPT</pattern>
+	    <template>
+	        <delay>1</delay>
+	        Best choice for you is: JavaScript
+	        <image>https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/240px-Unofficial_JavaScript_logo_2.svg.png</image>
+	        <button>
+                <text>Click Here to learn more about the language.</text>
+                <url>https://en.wikipedia.org/wiki/JavaScript</url>
+            </button>
+            <delay>3</delay>
+	        <reply>
+                <text>I want to try again</text>
+                <postback>I WANT TO LEARN PROGRAMING LANGUAGE</postback>
+            </reply>
+	    </template>
+	</category>
+</aiml>

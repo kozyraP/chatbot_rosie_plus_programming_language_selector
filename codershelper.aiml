@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>I WANT TO LEARN PROGRAMING LANGUAGE</pattern>
+	    <template>
+	        <delay>1</delay>
+	        OK, I can help you!
+	        <delay>1</delay>
+	        First, let's focus on your purpose!
+	        <delay>1</delay>
+	        Why Do You Want to Learn to Code?
+	        <delay>1</delay>
+	        <reply>
+                <text>Be a professional developer</text>
+                <postback>BE A PROFESSIONAL DEVELOPER</postback>
+            </reply>
+            <reply>
+                <text>Run a startup</text>
+                <postback>RUN A STARTUP</postback>
+            </reply>
+            <reply>
+                <text>Build something fun</text>
+                <postback>BUILD SOMETHING FUN</postback>
+            </reply>
+            <reply>
+                <text>Have another skill</text>
+                <postback>HAVE ANOTHER SKILL</postback>
+            </reply>
+	    </template>
+	</category>
+<!-- Navigator to programming topic -->
+	<category>
+      <pattern>I WANT TO LEARN <set>topicsnavigator</set></pattern>
+      <template>
+        <srai>I WANT TO LEARN PROGRAMING LANGUAGE</srai>
+      </template>
+    </category>
+    
+    <category>
+      <pattern>I WANT TO <set>topicsnavigator</set></pattern>
+      <template>
+        <srai>I WANT TO LEARN PROGRAMING LANGUAGE</srai>
+      </template>
+    </category>
+	<category>
+      <pattern>^<set>topicsnavigator</set>^</pattern>
+      <template>
+        <srai>I WANT TO LEARN PROGRAMING LANGUAGE</srai>
+      </template>
+    </category>
+<!-- Developer menu -->
+	<category>
+	    <pattern>BE A PROFESSIONAL DEVELOPER</pattern>
+	    <template>
+	        What Sort of Developer Do You Want to Be?
+	        <delay>1</delay>
+	        <reply>
+                <text>Game developer</text>
+                <postback>GAME DEVELOPER</postback>
+            </reply>
+            <reply>
+                <text>Mobile developer</text>
+                <postback>MOBILE DEVELOPER</postback>
+            </reply>
+            <reply>
+                <text>Web developer</text>
+                <postback>WEB DEVELOPER</postback>
+            </reply>
+            <reply>
+                <text>Desktop app developer</text>
+                <postback>DESKTOP APP DEVELOPER</postback>
+            </reply>
+            <reply>
+                <text>Data Scientist</text>
+                <postback>DATA SCIENTIST</postback>
+            </reply>
+	    </template>
+	</category>
+<!-- RUN A STARTUP menu -->
+	<category>
+	    <pattern>RUN A STARTUP</pattern>
+	    <template>
+	       What will Your Startup be Focused On First?
+	        <delay>1</delay>
+	        <reply>
+                <text>Web</text>
+                <postback>WEB DEVELOPER</postback>
+            </reply>
+            <reply>
+                <text>Mobile</text>
+                <postback>MOBILE DEVELOPER</postback>
+            </reply>
+            <reply>
+                <text>Game</text>
+                <postback>GAME DEVELOPER</postback>
+            </reply>
+	    </template>
+	</category>
+<!-- For fun menu -->
+	<category>
+	    <pattern>BUILD SOMETHING FUN</pattern>
+	    <template>
+	       What Kind of App?
+	        <delay>1</delay>
+	        <reply>
+                <text>Build small mobile games</text>
+                <postback>JAVA</postback>
+            </reply>
+            <reply>
+                <text>Task automation</text>
+                <postback>PYTHON</postback>
+            </reply>
+            <reply>
+                <text>Simple AI</text>
+                <postback>PYTHON</postback>
+            </reply>
+            <reply>
+                <text>Web</text>
+                <postback>WEB DEVELOPER</postback>
+            </reply>
+            <reply>
+                <text>Mobile</text>
+                <postback>MOBILE DEVELOPER</postback>
+            </reply>
+	    </template>
+	</category>
+<!-- Another skill menu -->
+	<category>
+	    <pattern>HAVE ANOTHER SKILL</pattern>
+	    <template>
+	       What Kind of Skill?
+	        <delay>1</delay>
+	        <reply>
+                <text>Mobile development</text>
+                <postback>MOBILE DEVELOPMENT</postback>
+            </reply>
+            <reply>
+                <text>Website development</text>
+                <postback>WEBSITE DEVELOPMENT</postback>
+            </reply>
+            <reply>
+                <text>Data analysis</text>
+                <postback>PYTHON</postback>
+            </reply>
+            <reply>
+                <text>Email design</text>
+                <postback>HTML</postback>
+            </reply>
+	    </template>
+	</category>
+	
+<!-- Game menu -->
+	<category>
+	    <pattern>GAME DEVELOPER</pattern>
+	    <template>
+	        What Do You Want to Specialize in?
+	        <delay>1</delay>
+	        <reply>
+                <text>Mobile games</text>
+                <postback>JAVA</postback>
+            </reply>
+            <reply>
+                <text>PC/Console games</text>
+                <postback>PC OR CONSOLE GAMES</postback>
+            </reply>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>PC OR CONSOLE GAMES</pattern>
+	    <template>
+	        What do You Care More About?
+	        <reply>
+                <text>Ease of learning</text>
+                <postback>C SHARP</postback>
+            </reply>
+            <reply>
+                <text>Stunning graphics and high performance</text>
+                <postback>C PLUS</postback>
+            </reply>
+	    </template>
+	</category>
+	
+<!-- Web menu -->
+	<category>
+	    <pattern>WEB DEVELOPER</pattern>
+	    <template>
+	        What Do You Want to Specialize in?
+	        <delay>1</delay>
+	        <reply>
+                <text>UX: how to interact with things</text>
+                <postback>JAVASCRIPT</postback>
+            </reply>
+            <reply>
+                <text>Logic: how things work</text>
+                <postback>BACKEND MENU</postback>
+            </reply>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>BACKEND MENU</pattern>
+	    <template>
+	        What Type of Companies Do You prefer?
+	        <delay>1</delay>
+	        <reply>
+                <text>Small business/Freelance</text>
+                <postback>JAVASCRIPT</postback>
+            </reply>
+            <reply>
+                <text>Startups</text>
+                <postback>PYTHON</postback>
+            </reply>
+            <reply>
+                <text>Traditional enterprises</text>
+                <postback>JAVA</postback>
+            </reply>
+	    </template>
+	</category>
+	
+<!-- Mobile menu -->
+	<category>
+	    <pattern>MOBILE DEVELOPER</pattern>
+	    <template>
+	        What Do You Want to Specialize in?
+	        <delay>1</delay>
+	        <reply>
+                <text>Android</text>
+                <postback>JAVA</postback>
+            </reply>
+            <reply>
+                <text>iOS</text>
+                <postback>SWIFT</postback>
+            </reply>
+	    </template>
+	</category>
+	
+<!-- Desktop menu -->
+	<category>
+	    <pattern>DESKTOP APP DEVELOPER</pattern>
+	    <template>
+	        What Platform?
+	        <delay>1</delay>
+	        <reply>
+                <text>Windows</text>
+                <postback>C SHARP</postback>
+            </reply>
+            <reply>
+                <text>Mac</text>
+                <postback>SWIFT</postback>
+            </reply>
+            <reply>
+                <text>Cross-Platform</text>
+                <postback>JAVA</postback>
+            </reply>
+	    </template>
+	</category>
+	
+<!-- DATA SCIENTIST menu -->
+	<category>
+	    <pattern>DATA SCIENTIST</pattern>
+	    <template>
+	        <srai>PYTHON</srai>
+	    </template>
+	</category>
+	
+<!-- Desktop menu -->
+	<category>
+	    <pattern>DESKTOP APP DEVELOPER</pattern>
+	    <template>
+	        What Platform?
+	        <delay>1</delay>
+	        <reply>
+                <text>Windows</text>
+                <postback>C SHARP</postback>
+            </reply>
+            <reply>
+                <text>Mac</text>
+                <postback>SWIFT</postback>
+            </reply>
+            <reply>
+                <text>Cross-Platform</text>
+                <postback>JAVA</postback>
+            </reply>
+	    </template>
+	</category>
+</aiml>
