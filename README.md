@@ -6,6 +6,7 @@ Chatbot bada preferencje użytkownika i podpowiada jaki język najlepiej będzie
 
 # Najważniejsze pliki
 codershelper.aiml - główny moduł algorytmu pomagająca wybrać odpowiedni język programowania
+
 languages.aiml - plik z bazą języków oraz z logiką ich opisu dla użytkownika
 
 topicsnavigator.set - lista zwrotów które pomagają naprowadzić na główny temat przeznaczenia bota, plik powstał
