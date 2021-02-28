@@ -1,5 +1,5 @@
 # Chatbot bazujący na chatbocie Rosie
-Chatbot z nieco zmodyfikowanym oryginałem, z dodaną funkcjonalnością pomocy w wyborze pierwszego języka programowania do nauki
+Chatbot z nieco zmodyfikowanym oryginałem (Rosie) z dodaną funkcjonalnością pomocy w wyborze pierwszego języka programowania do nauki
 
 Chatbot ma zmienione kilka parametrów. Stara się naprowadzić użytkownika na swój główny cel, czyli algorytm wyboru idealnego języka do nauki.
 Chatbot bada preferencje użytkownika i podpowiada jaki język najlepiej będzie pasował do jego zainteresowań. 
